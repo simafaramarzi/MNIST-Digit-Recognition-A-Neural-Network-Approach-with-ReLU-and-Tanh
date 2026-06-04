@@ -45,4 +45,16 @@ The main goal was to compare two popular activation functions: **ReLU** vs **Tan
 - Scikit-learn  
 
 ---
+## Results
 
+| Model | Test Accuracy |
+|-------|--------------|
+| ReLU  | 97.62%       |
+| Tanh  | 97.29%       |
+
+**Key Findings:**
+- ReLU converged faster and achieved higher accuracy
+- Tanh showed greater stability with less validation loss fluctuation
+- Most common misclassification: digit 9 confused with 7 (28 cases in ReLU)
+- Dataset: 70,000 MNIST images (60K train / 10K test), 10-class classification
+- Architecture: Sequential neural network (128→64→32→10 neurons)
