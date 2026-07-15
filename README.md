@@ -1,4 +1,3 @@
-
 # MNIST Digit Classifier: ReLU vs. Tanh
 
 A neural network built with TensorFlow/Keras to classify handwritten digits from the MNIST dataset, comparing two activation functions — **ReLU** and **Tanh** — to see how each affects accuracy, convergence speed, and overfitting.
